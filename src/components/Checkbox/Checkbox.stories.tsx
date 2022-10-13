@@ -11,10 +11,10 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <div className="flex gap-2">
-          <Story />
+        <label className="flex gap-2">
+          <Story id="checkbox" />
           <Text size="sm">Lembrar-me de mim em 30 dias</Text>
-        </div>
+        </label>
       );
     },
   ],
