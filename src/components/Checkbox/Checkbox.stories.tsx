@@ -11,9 +11,9 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <label className="flex gap-2">
-          <Story id="checkbox" />
-          <Text size="sm">Lembrar-me de mim em 30 dias</Text>
+        <label htmlFor="remember" className="flex items-center gap-2">
+          <Story id="remember" />
+          <Text size="sm">Lembrar-me de mim por 30 dias</Text>
         </label>
       );
     },

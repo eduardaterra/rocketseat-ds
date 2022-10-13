@@ -5,5 +5,6 @@ export interface TextProps extends SlotProps {
   size?: "sm" | "md" | "lg";
   children: React.ReactNode;
   asChild?: boolean;
+  className?: string;
 }
 
